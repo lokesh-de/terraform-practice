@@ -13,7 +13,7 @@ resource "aws_instance" "ubuntu" {
     instance_type = "t3.micro"
     key_name = "mykeypair"
     subnet_id = "subnet-08164473fa277ebed"
-    provider = "aws.us-east-1"
+    provider = aws.us-east-1
 }
 
 resource "aws_instance" "ubuntu2" {
@@ -21,5 +21,5 @@ resource "aws_instance" "ubuntu2" {
     instance_type = "t3.micro"
     key_name = "mykeypair"
     subnet_id = "subnet-08164473fa277ebed"
-    provider = "aws.us-west-2"
+    provider = aws.us-west-2
 }
