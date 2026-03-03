@@ -16,7 +16,7 @@ resource "aws_instance" "ubuntu" {
     provider = "aws.us-east-1"
 }
 
-resource "aws_instance" "ubuntu" {
+resource "aws_instance" "ubuntu2" {
     ami = "ami-0b6c6ebed2801a5cb"
     instance_type = "t3.micro"
     key_name = "mykeypair"
