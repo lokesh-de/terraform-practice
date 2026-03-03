@@ -1,11 +1,11 @@
 provider "aws" {
   region = "us-east-1"  # Set your desired AWS region
-  alias = "region 1"
+  alias = "us-east-1"
 }
 
 provider "aws" {
   region = "us-west-2"  # Set your desired AWS region
-    alias = "region 2"
+    alias = "us-west-2"
 }
 
 resource "aws_instance" "ubuntu" {
